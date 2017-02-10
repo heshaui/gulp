@@ -1,0 +1,27 @@
+html,body,div,h4,p,button{
+    margin:0;
+    padding:0;
+}
+.box{
+    width:300px;
+    height:300px;
+    position:absolute;
+    margin:auto;
+    top:0;bottom:0;left:0;right:0;
+    text-align:center;
+}
+.box h4{
+    font:70px/90px '微软雅黑';
+    color: rgba(7, 4, 4, 0.75);
+}
+.box p{
+    font:30px/45px '微软雅黑';
+    color: #9b3230;
+}
+.btn{
+    width:100px;
+    height:40px;
+    background: #0a963a;
+    color:#fff;
+    margin-top:10px;
+}

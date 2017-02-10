@@ -1,0 +1,83 @@
+/*
+初始化样式
+ */
+html,body,header,section,ul,li,h4,div,p,a,span{
+    margin:0;
+    padding:0;
+}
+ul,li{
+    list-style:none;
+}
+body{
+    font-size:14px;
+    color:#333;
+}
+/*
+头部
+*/
+header{
+    height:65px;
+    line-height:65px;
+    background: #a4d199;
+    color:#fff;
+    font-size:20px;
+    text-align:center;
+}
+/*
+内容
+*/
+.content{
+    padding:10px 30px;
+}
+.content ul{
+    overflow: hidden;
+    width:1260px;
+    margin:0 auto;
+}
+.content ul li{
+    width:220px;
+    height:300px;
+    margin:10px 15px;
+    border:1px solid #d1d1d1;
+    box-shadow:0 0 5px #333;
+    border-radius:5px;
+    float:left;
+
+}
+.content ul li h4{
+    text-align: center;
+    font-size:16px;
+}
+.content ul li p{
+    line-height:25px;
+}
+.box{
+    width:660px;
+    height:200px;
+    margin:0 auto;
+}
+.one,.two,.three{
+    width:200px;
+    height:200px;
+    margin-right:20px;
+    float:left;
+    margin-top:20px;
+}
+.one{
+    background:url(../images/1.jpg);
+}
+.two{
+    background:url(../images/2.jpg);
+}
+.three{
+    background:url(../images/3.jpg);
+}
+
+
+
+
+
+
+
+
+
